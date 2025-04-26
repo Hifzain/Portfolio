@@ -17,11 +17,11 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="px-10 py-4 bg-white shadow-md flex justify-between items-center">
+      <div className="md:px-10 px-4 py-4 bg-white shadow-md flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <img src={pic} className="h-12 w-12 rounded-full" alt="logo" />
           <h1 className="text-xl font-bold">
-            Hifzain <span className="text-blue-500">Bukhari</span>
+            Hifzain <span className="text-green-500">Bukhari</span>
           </h1>
         </div>
 
@@ -56,20 +56,20 @@ export default function Navbar() {
         <div className="md:hidden bg-white h-screen w-full">
           <ul className="flex flex-col items-center justify-center font-medium space-y-4 pt-20">
             {navItems.map(({ id, text }) => (
-              <a key={id} href={`#${text}`} onClick={() => setMenu(false)}>
-                <li className="text-xl hover:text-blue-500 cursor-pointer">
-                <Link
-                onClick={() => setMenu(!menu)}
-                to={text}
-                smooth={true}
-                duration={500}
-                offset={-70}
-                activeClass="active"
+              <li
+                key={id}
+                className="text-xl hover:text-blue-500 cursor-pointer"
               >
-                {text}
-              </Link>
-                </li>
-              </a>
+                <Link
+                  to={text}
+                  smooth={true}
+                  duration={500}
+                  offset={-60}
+                  onClick={() => setMenu(false)}
+                >
+                  {text}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>

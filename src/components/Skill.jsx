@@ -6,28 +6,28 @@ export default function Skill() {
   const skills = {
     Frontend: [
       { id: 1, name: "HTML 5", level: 90 },
-      { id: 2, name: "CSS 3", level: 70 },
-      { id: 3, name: "JavaScript (ES6+)", level: 60 },
-      { id: 4, name: "React.js", level: 50 },
-      { id: 5, name: "Bootstrap", level: 60 },
-      { id: 6, name: "Tailwind", level: 60 },
-      { id: 6, name: "Jquery", level: 50 },
+      { id: 2, name: "CSS 3", level: 90 },
+      { id: 3, name: "JavaScript (ES6+)", level: 80 },
+      { id: 4, name: "React.js", level: 80 },
+      { id: 5, name: "Bootstrap", level: 90 },
+      { id: 6, name: "Tailwind", level: 90 },
+      { id: 6, name: "Jquery", level: 70 },
     ],
     Backend: [
-      { id: 1, name: "Django", level: 80 },
-      { id: 2, name: "DRF", level: 70 },
-      { id: 3, name: "Python", level: 70 },
+      { id: 1, name: "Django", level: 90 },
+      { id: 2, name: "DRF", level: 80 },
+      { id: 3, name: "Python", level: 80 },
       { id: 4, name: "MySql", level: 80 },
-      { id: 5, name: "SQlite", level: 70 },
-      { id: 6, name: "API", level: 70 },
-      { id: 7, name: "PostgreSQL", level: 50 },
+      { id: 5, name: "SQlite", level: 80 },
+      { id: 6, name: "API", level: 80 },
+      { id: 7, name: "PostgreSQL", level: 80 },
     ],
     Other: [
-      { id: 1, name: "Git & GitHub", level: 60 },
-      { id: 2, name: "vsCode", level: 80 },
-      { id: 3, name: "Jupyter Notebook", level: 50 },
-      { id: 4, name: "POSTMAN", level: 50 },
-      { id: 5, name: "MicroSoft Office", level: 70 },
+      { id: 1, name: "Git & GitHub", level: 90 },
+      { id: 2, name: "vsCode", level: 100 },
+      { id: 3, name: "Jupyter Notebook", level: 80 },
+      { id: 4, name: "POSTMAN", level: 80 },
+      { id: 5, name: "MicroSoft Office", level: 90 },
 
     ],
   };
@@ -62,7 +62,7 @@ export default function Skill() {
             </div>
             <div className="w-full bg-gray-800 rounded-full h-2.5">
               <div
-                className="bg-blue-500 h-2.5 rounded-full"
+                className="bg-green-500 h-2.5 rounded-full"
                 style={{ width:`${level}%` }}
               ></div>
             </div>

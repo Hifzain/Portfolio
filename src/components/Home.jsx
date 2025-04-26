@@ -10,7 +10,7 @@ export default function Home() {
         <div className='flex flex-col-reverse md:flex-row items-center'>
           {/* Left Side - Introduction Text */}
           <div className='md:w-1/2 mt-12 md:mt-24 space-y-4'>
-            <span className='text-xl text-gray-700'>Welcome to my portfolio</span>
+            <span className='text-xl text-gray-700 '>Welcome to my portfolio</span>
             <div className='text-lg md:text-3xl font-semibold text-gray-800 flex items-center'>
               <h1 className='mr-2'>Hello, I'm a </h1>
               <ReactTyped
